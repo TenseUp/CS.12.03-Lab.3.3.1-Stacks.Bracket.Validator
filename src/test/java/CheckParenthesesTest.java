@@ -44,13 +44,13 @@ class CheckParenthesesTest {
 
         for (String bracketString: validBracketArray) {
 
-            assertTrue(CheckParentheses.checkValidParentheses(bracketString));
+            assertTrue(BracketValidator.checkValidParentheses(bracketString));
 
         }
 
         for (String bracketString: invalidBracketArray) {
 
-            assertFalse(CheckParentheses.checkValidParentheses(bracketString));
+            assertFalse(BracketValidator.checkValidParentheses(bracketString));
 
         }
 
